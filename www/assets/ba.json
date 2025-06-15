@@ -1,0 +1,114 @@
+{
+    "Foglio1": [
+        {
+            "ID": "B1",
+            "Nome": "TECNOLOGIA AUTOMOBILISTICA",
+            "Domande": "1,999"
+        },
+        {
+            "ID": "B1A",
+            "Nome": "Sistemi di frenatura",
+            "Domande": "200"
+        },
+        {
+            "ID": "B1B",
+            "Nome": "Sterzo",
+            "Domande": "66"
+        },
+        {
+            "ID": "B1C",
+            "Nome": "Campi visivi",
+            "Domande": "81"
+        },
+        {
+            "ID": "B1D",
+            "Nome": "Installazione delle luci, impianto di illuminazione e componenti elettronici",
+            "Domande": "170"
+        },
+        {
+            "ID": "B1E",
+            "Nome": "Assi, ruote e pneumatici",
+            "Domande": "284"
+        },
+        {
+            "ID": "B1F",
+            "Nome": "Telaio e carrozzeria",
+            "Domande": "657"
+        },
+        {
+            "ID": "B1G",
+            "Nome": "Rumori ed emissioni",
+            "Domande": "128"
+        },
+        {
+            "ID": "B1H",
+            "Nome": "Requisiti aggiuntivi per veicoli speciali",
+            "Domande": "338"
+        },
+        {
+            "ID": "B1I",
+            "Nome": "Sistemi IT di bordo",
+            "Domande": "75"
+        },
+        {
+            "ID": "B2",
+            "Nome": "METODI DI PROVA",
+            "Domande": "1,881"
+        },
+        {
+            "ID": "B2A",
+            "Nome": "Ispezioni visive sul veicolo",
+            "Domande": "567"
+        },
+        {
+            "ID": "B2B",
+            "Nome": "Valutazione delle carenze",
+            "Domande": "45"
+        },
+        {
+            "ID": "B2C",
+            "Nome": "Requisiti legali e amministrativi applicabili ai controlli tecnici del veicolo",
+            "Domande": "492"
+        },
+        {
+            "ID": "B2D",
+            "Nome": "Requisiti legali applicabili alle condizioni dei veicoli da omologare",
+            "Domande": "513"
+        },
+        {
+            "ID": "B2E",
+            "Nome": "Metrologia applicata alla verifica periodica e metrologica delle attrezzature per le prove di revisione",
+            "Domande": "264"
+        },
+        {
+            "ID": "B3",
+            "Nome": "PROCEDURE AMMINISTRATIVE",
+            "Domande": "432"
+        },
+        {
+            "ID": "B3A",
+            "Nome": "Sistemi di gestione della qualità (norme ISO)",
+            "Domande": "65"
+        },
+        {
+            "ID": "B3B",
+            "Nome": "Ambiente e sicurezza nei centri di revisione",
+            "Domande": "59"
+        },
+        {
+            "ID": "B3C",
+            "Nome": "Centri di controllo: requisiti amministrativi, tecnici e di qualità del servizio",
+            "Domande": "147"
+        },
+        {
+            "ID": "B3D",
+            "Nome": "Centri di controllo: verifiche ispettive",
+            "Domande": "112"
+        },
+        {
+            "ID": "B3E",
+            "Nome": "Applicazioni IT relative ai controlli ed all’amministrazione",
+            "Domande": "49"
+        }
+    ]
+}

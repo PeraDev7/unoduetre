@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--
+  Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+      https://cordova.apache.org/docs/en/latest/
+  Some notes:
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+      * Enable inline JS: add 'unsafe-inline' to default-src
+  -->
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: content:">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+
+  <meta name="theme-color" content="#fff">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <title>Quiz</title>
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="icon" href="assets/icons/favicon.png">
+  
+  
+  <link rel="stylesheet" href="framework7/framework7-bundle.min.css">
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="app">
+
+    <div class="view view-main view-init safe-areas">
+      <div class="page" data-name="home">
+        <div class="page-content">
+          <img class="logo-alto" src="assets/logo_app.png">
+          <div class="block">
+            <h2>Seleziona un modulo per continuare</h2>
+          </div>
+          <div class="block">
+            <div idmodulo="b" class="blocco modulo-b">
+              <h6>Esami Ispettore Revisione</h6>
+              <h2>MODULO B</h2>
+              <h6>Veicoli Leggeri</h6>
+            </div>
+            <div idmodulo="c" class="blocco modulo-c">
+              <h6>Esami Ispettore Revisione</h6>
+              <h2>MODULO C</h2>
+              <h6>Veicoli Pesanti</h6>
+            </div>
+          </div>
+          <div class="logo_basso">
+            <img id="logo_aziendale" src="assets/logo_azienda.jpg">
+            <p style=" position: absolute; bottom: 0px; left: 0; right: 0; text-align: center; margin-left: auto; margin-right: auto; ">Powered by 12punto3 SRL</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <!-- Framework7 library -->
+  <script src="framework7/framework7-bundle.min.js"></script>
+  
+  
+  <!-- App routes -->
+  <script src="js/routes.js"></script>
+  <!-- App store -->
+  <script src="js/store.js"></script>
+  <!-- App scripts -->
+  <script src="js/app.js"></script>
+  <script src="cordova.js"></script>
+</body>
+</html>

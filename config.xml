@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.peradev.quizrevisioni" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Quiz Esami Ispettori Revisione</name>
+    <description>Quiz Esami Ispettori Revisione</description>
+    <author email="info@peradev.it" href="https://cordova.apache.org">
+        PeraDev
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>

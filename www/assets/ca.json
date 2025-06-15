@@ -1,0 +1,74 @@
+{
+    "Foglio1": [
+        {
+            "ID": "C1A",
+            "Nome": "Sistemi di frenatura misti",
+            "Domande": "200"
+        },
+        {
+            "ID": "C1B",
+            "Nome": "Sterzo",
+            "Domande": "66"
+        },
+        {
+            "ID": "C1C",
+            "Nome": "Campi visivi",
+            "Domande": "81"
+        },
+        {
+            "ID": "C1D",
+            "Nome": "Installazione delle luci, impianto di illuminazione e componenti elettronici",
+            "Domande": "170"
+        },
+        {
+            "ID": "C1E",
+            "Nome": "Assi, ruote e pneumatici",
+            "Domande": "284"
+        },
+        {
+            "ID": "C1F",
+            "Nome": "Telaio e carrozzeria",
+            "Domande": "657"
+        },
+        {
+            "ID": "C1G",
+            "Nome": "Rumori ed emissioni",
+            "Domande": "128"
+        },
+        {
+            "ID": "C1H",
+            "Nome": "Requisiti aggiuntivi per veicoli speciali",
+            "Domande": "338"
+        },
+        {
+            "ID": "C1I",
+            "Nome": "Sistemi IT di bordo",
+            "Domande": "75"
+        },
+        {
+            "ID": "C2A",
+            "Nome": "Ispezioni visive sul veicolo",
+            "Domande": "567"
+        },
+        {
+            "ID": "C2B",
+            "Nome": "Valutazione delle carenze",
+            "Domande": "45"
+        },
+        {
+            "ID": "C2C",
+            "Nome": "Requisiti legali e amministrativi applicabili ai controlli tecnici del veicolo",
+            "Domande": "492"
+        },
+        {
+            "ID": "C2D",
+            "Nome": "Requisiti legali applicabili alle condizioni dei veicoli da omologare",
+            "Domande": "513"
+        },
+        {
+            "ID": "C2E",
+            "Nome": "Metrologia applicata alla verifica periodica e metrologica delle attrezzature per le prove di revisione",
+            "Domande": "264"
+        }
+    ]
+}
