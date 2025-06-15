@@ -22,7 +22,7 @@ if (localStorage.getItem("modulo")){
   }
 }
 document.getElementById("logo_aziendale").onclick = function(){
-  var ref = window.open('https://www.ispettorirevisione.it', '_blank', 'location=yes');
+  var ref = window.open('https://www.12punto3.it', '_blank', 'location=yes');
 }
 var blocco = document.querySelectorAll(".blocco");
 blocco.forEach(function(b){
@@ -44,6 +44,9 @@ $(document).on('page:init', '.page[data-name="home"]', function (e) {
     document.getElementById("modulo").innerHTML = "Modulo C";
     document.getElementById("esame_txt").innerHTML = "Rispondi ai quesiti estratti secondo i criteri d’esame con 30 domande in 20 minuti.";
   }
+  document.getElementById("logo_alto").onclick = function(){
+  var ref = window.open('https://www.ispettorirevisione.it', '_blank', 'location=yes');
+}
   var modalita = document.querySelectorAll(".modalita");
   modalita.forEach(function(mb){
     mb.onclick = function(){
@@ -747,7 +750,7 @@ if (idmodulo == "b"){
       var idmodulo = storage.getItem("modulo");
       var myObject = JSON.stringify({"totali" : totali_domande, "email" : email, "contenuto" : contenuto, "modulo" : idmodulo, "errori" : errori_totali});
       var xhr = new XMLHttpRequest();
-      xhr.open("POST","https://www.peradev.it/inviamail.php",false);
+      xhr.open("POST","https://www.ispettorirevisione.it/WebSite/QuizEsami/inviamail.php",false);
       xhr.setRequestHeader("Content-type","application/json");
       xhr.onreadystatechange = function(){
           if(xhr.readyState==4){
@@ -854,7 +857,7 @@ if (idmodulo == "b"){
       var idmodulo = storage.getItem("modulo");
       var myObject = JSON.stringify({"totali" : totali_domande, "email" : email, "contenuto" : contenuto, "modulo" : idmodulo, "errori" : errori_totali});
       var xhr = new XMLHttpRequest();
-      xhr.open("POST","https://www.peradev.it/inviamail.php",false);
+      xhr.open("POST","https://www.ispettorirevisione.it/WebSite/QuizEsami/inviamail.php",false);
       xhr.setRequestHeader("Content-type","application/json");
       xhr.onreadystatechange = function(){
           if(xhr.readyState==4){
